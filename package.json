@@ -4,18 +4,20 @@
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name AKASH-MD",
-      "stop": "pm2 stop AKASH-MD",
-     "restart": "pm2 restart AKASH-MD"
+      "start": "pm2 start index.js --deep-monitoring --attach --name NIMA-OFC",
+      "stop": "pm2 stop NIMA-OFC",
+     "restart": "pm2 restart NIMA-OFC"
     },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.17",
+    "@whiskeysockets/baileys": "latest",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
     "phone" : "3.1.30",
     "body-parser": "^1.20.1",
     "express": "^4.18.1",
+    "jimp":"^1.6.0",
+    "sharp":"^0.34.1",
     "path": "^0.12.7",
     "megajs": "^1.1.0",
     "pm2": "^5.2.0"
